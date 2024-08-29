@@ -1,0 +1,15 @@
+* NGSPICE file created from ota_5t.ext - technology: sky130A
+
+.subckt ota_5t Ib Vn Vp Vout VDD VSS
+X0 VDD a_2521_2520# a_2521_2520# VDD sky130_fd_pr__pfet_01v8 ad=0.375 pd=2 as=0.45 ps=3.6 w=1.5 l=1
+X1 a_2521_2520# Vp a_2521_2360# VSS sky130_fd_pr__nfet_01v8 ad=0.9 pd=6.6 as=0.9 ps=6.6 w=3 l=0.5
+X2 a_2521_2520# a_2521_2520# VDD VDD sky130_fd_pr__pfet_01v8 ad=0.375 pd=2 as=0.375 ps=2 w=1.5 l=1
+X3 Vout Vn a_2521_2360# VSS sky130_fd_pr__nfet_01v8 ad=0.9 pd=6.6 as=0.9 ps=6.6 w=3 l=0.5
+X4 VDD a_2521_2520# a_2521_2520# VDD sky130_fd_pr__pfet_01v8 ad=0.45 pd=3.6 as=0.375 ps=2 w=1.5 l=1
+X5 VSS Ib Ib VSS sky130_fd_pr__nfet_01v8 ad=1.2 pd=8.6 as=1.2 ps=8.6 w=4 l=1
+X6 VDD a_2521_2520# Vout VDD sky130_fd_pr__pfet_01v8 ad=0.375 pd=2 as=0.45 ps=3.6 w=1.5 l=1
+X7 a_2521_2360# Ib VSS VSS sky130_fd_pr__nfet_01v8 ad=1.2 pd=8.6 as=1.2 ps=8.6 w=4 l=1
+X8 Vout a_2521_2520# VDD VDD sky130_fd_pr__pfet_01v8 ad=0.375 pd=2 as=0.375 ps=2 w=1.5 l=1
+X9 VDD a_2521_2520# Vout VDD sky130_fd_pr__pfet_01v8 ad=0.45 pd=3.6 as=0.375 ps=2 w=1.5 l=1
+.ends
+
