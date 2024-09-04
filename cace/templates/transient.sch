@@ -103,4 +103,4 @@ value="
 * Flag unsafe operating conditions (exceeds models' specified limits)
 .option warn=1
 "}
-C {/home/unixpoly/analog/projects/sky130/ota_5t/xschem/ota_5t.sym} 540 120 0 0 {name=X1}
+C {ota_5t.sym} 540 120 0 0 {name=X1}

@@ -125,4 +125,4 @@ value="
     echo $&A0 $&ugf $&PM > CACE\{simpath\}/CACE\{filename\}_CACE\{N\}.data
 .endc
 "}
-C {/home/unixpoly/analog/projects/sky130/ota_5t/xschem/ota_5t.sym} 390 130 0 0 {name=X1}
+C {ota_5t.sym} 390 130 0 0 {name=X2}

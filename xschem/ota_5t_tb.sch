@@ -172,8 +172,8 @@ C {devices/lab_wire.sym} 140 -1410 0 0 {name=p5 sig_type=std_logic lab=VDD}
 C {devices/lab_wire.sym} 220 -1410 0 0 {name=p6 sig_type=std_logic lab=VDD}
 C {devices/lab_wire.sym} 490 -1290 2 1 {name=p9 sig_type=std_logic lab=VSS}
 C {sky130_fd_pr/corner.sym} 800 -1350 0 0 {name=CORNER only_toplevel=false corner=tt}
-C {/home/unixpoly/analog/projects/sky130/ota_5t/xschem/ota_5t.sym} 410 -1350 0 0 {name=X1}
 C {launcher.sym} 470 -880 0 0 {name=h5
 descr="load waves" 
 tclcommand="xschem raw_read $netlist_dir/ota_5t_tb.raw ac"
 }
+C {ota_5t.sym} 410 -1350 0 0 {name=X1}
